@@ -39,7 +39,7 @@
     "proxy-protocol-js": "^4.0.5"
   },
   "optionalDependencies": {
-    "@fastly/js-compute": "^1.0.1"
+    "@fastly/js-compute": "^3.27.2"
   },
   "devDependencies": {
     "@types/node": "^16.11.7",
