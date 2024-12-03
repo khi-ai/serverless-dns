@@ -45,7 +45,7 @@ jobs:
 
       - name: 🛠 Build 
         id: push
-        uses: docker/build-push-action@5e99dacf67635c4f273e532b9266ddb609b3025a
+        uses: docker/build-push-action@8796455d3250bab0b8ea17630e10645c29a1249a
         with:
           context: .
           file: ./node.Dockerfile
@@ -91,7 +91,7 @@ jobs:
 
       - name: 🛠 Build
         id: push
-        uses: docker/build-push-action@5e99dacf67635c4f273e532b9266ddb609b3025a
+        uses: docker/build-push-action@8796455d3250bab0b8ea17630e10645c29a1249a
         with:
           context: .
           file: ./bun.Dockerfile
